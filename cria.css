@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Silkscreen&display=swap');
+
+
+body {
+    background-color: black;
+}
+
+#numeros {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.numerin {
+    border: 5px red solid;
+    border-radius: 30px 30px 30px 30px;
+    color: gold;
+    background-color: black;
+    font-size: 70px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.numerin:hover {
+    border: 5px red solid;
+    border-radius: 30px 30px 30px 30px;
+    color: red;
+    background-color: black;
+    font-size: 70px;
+    font-family: 'Silkscreen', cursive;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Nabla', cursive;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.imagen {
+    border: 5px red solid;
+    border-radius: 30px 30px 30px 30px;
+    width: 300px;
+}
+
+#um {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+#dois {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+
+.visor {
+    grid-column: 1/ 5;
+    text-align: center;
+}
+
+.igualcss {
+    border: 5px red solid;
+    border-radius: 30px 30px 30px 30px;
+    color: gold;
+    background-color: black;
+    font-size: 70px;
+    font-family: 'Silkscreen', cursive;
+}
