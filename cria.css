@@ -70,3 +70,30 @@ h1 {
     font-size: 70px;
     font-family: 'Silkscreen', cursive;
 }
+
+.igualcss:hover {
+    border: 5px red solid;
+    border-radius: 30px 30px 30px 30px;
+    color: red;
+    background-color: black;
+    font-size: 70px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.operadorgamer {
+    border: 5px red solid;
+    border-radius: 30px 30px 30px 30px;
+    color: gold;
+    background-color: black;
+    font-size: 70px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.visor {
+    border: 5px red solid;
+    border-radius: 30px 30px 30px 30px;
+    color: gold;
+    background-color: black;
+    font-size: 70px;
+    font-family: 'Silkscreen', cursive;
+}

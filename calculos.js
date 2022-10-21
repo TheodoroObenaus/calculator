@@ -73,7 +73,7 @@ function realiza_operacao(valor1, operacao, valor2) {
     else if (operacao === "*") {
         return valor1 * valor2
     }
-    else if (operacao === "÷") {
+    else if (operacao === "/") {
         return valor1 / valor2
     }
 }
